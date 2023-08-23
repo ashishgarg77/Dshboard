@@ -1,0 +1,11 @@
+@media(max-width:456px){
+    body {
+       font-size: 80%;
+    }
+}
+
+@media(max-width: 759px){
+    #sidebar{
+        display: none;
+    }
+}

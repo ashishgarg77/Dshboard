@@ -1,0 +1,50 @@
+.line-card {
+    border-radius: 10px; 
+    height: 155px;
+    min-width:137px;
+    max-width:250px;
+}
+
+@media  (max-width: 2000px)  {
+    .line-card {
+        border-radius: 10px;
+        height: 155px;
+        min-width: 137px;
+        max-width: 161px
+    }
+    
+  }
+
+@media  (max-width: 1280px)  {
+    .line-card {
+        border-radius: 10px;
+        height: 155px;
+        min-width: 137px;
+        max-width: 147px;
+    }
+  }
+    
+@media  (max-width: 420px)  {
+    .line-card {
+        border-radius: 10px;
+        height: 155px;
+        min-width: 200px;
+        max-width: 315px;
+        margin: 20px;
+        
+    }
+  }
+    
+/* @media ( min-width : 1400px) {
+    .line{
+        width: calc(100% * 1/7) !important;
+        }
+    } */
+
+/* @media ( min-width : 390px) {
+    .line{
+            min-width: 137px;
+        }
+    } */
+
+
